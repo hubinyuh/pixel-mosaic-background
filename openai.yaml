@@ -1,0 +1,7 @@
+interface:
+  display_name: "像素马赛克场景"
+  short_description: "保留主体与地域风格，生成高饱和、近大远小的实体体素场景"
+  default_prompt: "使用 $pixel-mosaic-background 完整保留这张图的主体和地域风格，将周围环境做成高饱和、中度、近大远小且具有真实体积与投影的 3D 体素场景。"
+
+policy:
+  allow_implicit_invocation: true
